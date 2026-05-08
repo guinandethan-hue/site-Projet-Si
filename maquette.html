@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquette - Projet SI</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+    .galerie {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin-top: 30px;
+    }
+    .galerie img {
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 1px solid #e0e0e0;
+    }
+    .galerie .legende {
+        font-size: 13px;
+        color: #888;
+        text-align: center;
+        margin-top: 6px;
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+  <img src="présentation.png" alt="Projet SI">
+</div>
+        <ul>
+            <li><a href="siteweb.html">Présentation</a></li>
+            <li><a href="caracteristiques.html">Caractéristiques</a></li>
+            <li><a href="maquette.html" class="active">Maquette</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Maquette du Projet SI</h1>
+        <p>
+            Voici  Voici les photos de notre maquette réalisée en cours de SI.
+      Place tes images dans le dossier <strong>images/</strong> et
+      remplace les noms de fichiers ci-dessous.
+        </p>
+        <div class="galerie">
+            <img src="maquette1.jpg" alt="Maquette du bâtiment - Vue 1">
+            <div class="legende">Vue de face de la maquette</div>
+            <img src="maquette2.jpg" alt="Maquette du bâtiment - Vue 2">
+            <div class="legende">Vue latérale de la maquette</div>
+            <img src="maquette3.jpg" alt="Maquette du bâtiment - Vue 3">
+            <div class="legende">Vue de tranche de la maquette</div>
+            <img src="maquette4.jpg" alt="Maquette du bâtiment - Vue 4">
+            <div class="legende">Vue d'ensemble de la maquette</div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 Projet SI. Tous droits réservés.</p>
+        <p>Créé par : <u><strong>Mattew Margotteau,Rémi Jacob,Ethan Guinand</strong></u></p>
+    </footer>
+</body>
+</html>

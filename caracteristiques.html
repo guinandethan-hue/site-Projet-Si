@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caractéristiques - Projet SI</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cartes {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .cartes .carte {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 24px;
+        }
+        .cartes h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #111;
+        }
+        .cartes p {
+            font-size: 14px;
+            color: #666;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="présentation.png" alt="Projet SI">
+        </div>
+        <ul>
+            <li><a href="siteweb.html">Présentation</a></li>
+            <li><a href="caracteristiques.html" class="active">Caractéristiques</a></li>
+            <li><a href="maquette.html">Maquette</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Caractéristiques du Projet SI</h1>
+        <p> Voici les principales caractéristiques du bâtiment </p>
+        <div class="cartes">
+            <div class="carte">
+                <h3>Matériaux</h3>
+                <p>béton perméable,métal,bois,verre</p>
+            </div>
+            <div class="carte">
+                <h3>Dimensions</h3>
+                <p>Longueur: X m * Largeur: X m *Hauteur: X m</p>
+            </div>
+            <div class="carte">
+                <h3>Résistance</h3>
+                <p>Charge maximales supportées, contraintes mécaniques</p>
+            </div>
+            <div class="carte">
+                <h3>Fonctionnement</h3>
+                <p>Principe de fonctionnement du bâtiment</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 Projet SI. Tous droits réservés.</p>
+        <p>Créé par : <u><strong>Mattew Margotteau,Rémi Jacob,Ethan Guinand</strong></u></p>
+    </footer>
+</body>
+</html>
