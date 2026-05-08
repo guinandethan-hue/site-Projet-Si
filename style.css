@@ -7,7 +7,7 @@
 body{
     font-family: 'Segoe UI', sans-serif;
     background: #1a1f1a;
-    color: #d4e8d0;
+    color: #3d5c3a;
 }
 
 nav{
@@ -69,7 +69,7 @@ p{
     font-size: 16px;
     line-height: 1.7;
     margin-bottom: 16px;
-    color: #444;
+    color: #3d5c3a;
 }
 
 footer{
@@ -116,11 +116,11 @@ footer{
 .vignette .vignette-texte h3{
     font-size: 16px;
     margin-bottom: 6px;
-    color: #111;
+    color: #3d5c3a;
 }
 
 .vignette .vignette-texte p{
     font-size: 13px;
-    color: #888;
+    color: #3d5c3a;
     margin: 0;
 }
