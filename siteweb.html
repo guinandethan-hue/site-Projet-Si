@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation - Projet SI</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero {
+            background-color: #2a3d29;
+            color:  #517954;
+            border-radius: 12px;
+            padding: 50px 20px;
+            margin-bottom: 50px;
+        }
+        .hero h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #517954;
+        }
+        .hero .lieu {
+            font-size: 14px;
+            color: #517954;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+        }
+        .blocs {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+        .bloc {
+            background-color: #232b22;
+            border: 1px solid #3d5c3a;
+            border-radius: 12px;
+            padding: 24px;
+        }
+        .bloc .icone {
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
+        .bloc h3 {
+            font-size: 15px;
+            margin-bottom: 8px;
+            color: #111;
+        }
+        ;.bloc p {
+            font-size: 13px;
+            color: #517954;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .localisation {
+            background: #232b22;
+            border: 1px solid #3d5c3a;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 50px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        .localisation .pin {
+            font-size: 48px;
+            flex-shrink: 0;
+        }
+        .localisation h2 {
+            font-size: 18px;
+            margin-bottom: 18px;
+            margin-top: 0;
+        }
+        .localisation p {
+            font-size: 14px;
+            color: #517954;
+            margin: 0;
+        }
+        .logements {
+            display: grid;
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+        .logement {
+            flex: 1;
+            background: #2a3d29;
+            color: #517954;
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+        }
+        .logement .nombre {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+        .logement .type {
+            font-size: 13px;
+            color: #aaa;
+            letter-spacing: 1px;
+        }
+    .galerie-placeholder {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 50px;
+    }
+    .photo-placeholder {
+      background: #232b22;
+      border-radius: 10px;
+      height: 180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #2a3d29;
+      font-size: 13px;
+      gap: 8px;
+      border: 2px dashed #517954;
+    }
+    .photo-placeholder span {
+      font-size: 30px;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+  <img src="présentation.png" alt="Projet SI">
+</div>
+        <ul>
+            <li><a href="siteweb.html" class="active">Présentation</a></li>
+            <li><a href="caracteristiques.html">Caractéristiques</a></li>
+            <li><a href="maquette.html">Maquette</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="hero">
+            <h1>Projet SI - Présentation</h1>
+            <p class="lieu">Ruisseau de Loverchy — Annecy</p>
+            <h1>Résidence du Loverchy</h1>
+            <p>Conception d'un immeuble résidentiel de 10 logements alliant
+        confort acoustique, diversité des typologies et stationnement intégré.</p>
+        </div>
+     <h2>Pourquoi ce projet ?</h2>
+     <div class="blocs">
+       <div class="bloc">
+         <div class="icone"></div>
+         <h3>Répondre au besoin en logements</h3>
+         <p> Proposer 10 logements variés (T2, T3, T5) pour répondre
+          aux besoins de différents profils de ménages à Annecy.</p>
+       </div>
+       <div class="bloc">
+         <div class="icone"></div>
+         <h3>Réduire les nuisances sonores</h3>
+         <p> Le bâtiment est conçu pour atténuer les bruits de la route
+          grâce à des matériaux et une orientation adaptés.</p>
+       </div>
+       <div class="bloc">
+         <div class="icone"></div>
+         <h3>Prévoir un parking</h3>
+         <p>
+           Un espace de stationnement est intégré au projet pour
+          faciliter la vie des résidents.
+         </p>
+       </div>
+    <div>
+         <h2>Composition du batiment</h2>
+         <div class="logements">
+           <div class="logement">
+             <div class="nombre">T2</div>
+             <div class="type">Petits logements</div>
+           </div>
+           <div class="logement">
+             <div class="nombre">T3</div>
+             <div class="type">Logements intermédiaires</div>
+           </div>
+           <div class="logement">
+             <div class="nombre">T5</div>
+             <div class="type">Logements spacieux</div>
+           </div>
+           <div class="logement">
+             <div class="nombre">10</div>
+             <div class="type">Logements au total</div>
+           </div>
+    </div>
+     <h2>Localisation</h2>
+     <div class="localisation">
+       <div class="pin"></div>
+       <div>
+         <h2>Ruisseau de Loverchy, Annecy</h2>
+         <p>
+           Le terrain se situe au bord du Ruisseau de Loverchy à Annecy (74).
+          Ce secteur résidentiel est à proximité d'axes routiers importants,
+          ce qui justifie la prise en compte de l'isolation acoustique
+          dans la conception du bâtiment.
+         </p>
+       </div>
+     </div>
+      <h2>Visuels du projet</h2>
+      <div class="galerie-placeholder">
+        <div class="photo-placeholder">
+          <span></span>
+          <p>Photos de la maquette à venir</p>
+        </div>
+        <div class="photo-placeholder">
+          <span></span>
+          <p>Photos de la maquette à venir</p>
+        </div>
+        <div class="photo-placeholder">
+          <span></span>
+          <p>Photos de la maquette à venir</p>
+        </div>
+    </div>
+  <div class="vignettes">
+    <a href="siteweb.html" class="vignette">
+      <div class="vignette-texte">
+        <h3>Présentation</h3>
+        <p>Découvrez le contexte et les objectifs du projet.</p>
+      </div>
+    </a>
+    <a href="caracteristiques.html" class="vignette">
+      <div class="vignette-texte">
+        <h3>Caractéristiques</h3>
+        <p>Les données techniques de la structure.</p>
+      </div>
+    </a>
+    <a href="maquette.html" class="vignette">
+      <div class="vignette-texte">
+        <h3>Maquette</h3>
+        <p>Photos et détails de la maquette réalisée.</p>
+      </div>
+    </a>
+  </div>
+</main>
+    <footer>
+        <p>&copy; 2026 Projet SI. Tous droits réservés.</p>
+        <p>Créé par : <u><strong>Mattew Margotteau,Rémi Jacob,Ethan Guinand</strong></u></p>
+    </footer>
+</body>
+</html>
